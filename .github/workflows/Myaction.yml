@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 43200  # 30 days max timeout for GitHub Actions
+    timeout-minutes: 43200  # 30 days max timeout for GitHub Acti
 
     steps:
     - name: Download NGROK
